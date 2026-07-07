@@ -56,7 +56,6 @@ class Solution:
         left = 0
         total = 0
         min_length = float("inf")
-
         for right in range(len(arr)):
             # Expand the window
             total += arr[right]
