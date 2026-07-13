@@ -34,8 +34,11 @@ class Solution:
                 left = mid + 1
         return left
 sol = Solution()
-print(sol.koko_eating_banana([1,10,100,20],6))
+print(sol.koko_eating_banana([1,10,10,20],10))
+#if you have 10 hours to finish 41 banans how many per hour you'll eat
 """
+
+
 
 #Capacity to Ship Packages within D days
 """
